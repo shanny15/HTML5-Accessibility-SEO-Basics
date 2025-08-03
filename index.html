@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A beginner-friendly webpage demonstrating semantic HTML5, accessibility, and SEO best practices." />
+    <title>Accessible and SEO-friendly Webpage</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to My Webpage</h1>
+        <nav aria-label="Primary navigation">
+            <ul>
+                <li>
+                    <a href="#main-content">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content" tabindex="-1">
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About Me</h2>
+            <p>We provide accessible and SEO-friendly web design solutions for beginners and professionals alike.</p>
+        </section>
+
+        <section id="services" aria-labelledby="services-heading">
+            <h2 id="services-heading"> Services</h2>
+            <article>
+                <h3>Web Accessibility Consulting</h3>
+                <p>Helping you make your websites usable for all, including people with disabilities.</p>
+            </article>
+            <article>
+                <h3>SEO Optimization</h3>
+                <p>Improving your site’s visibility on search engines with proven best practices.</p>
+            </article>
+        </section>
+    </main>
+
+    <aside>
+        <h2>Helpful Resources</h2>
+        <ul>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility" target="_blank" rel="noopener">MDN Web Accessibility</a></li>
+            <li><a href="https://developers.google.com/search/docs/beginner/seo-starter-guide" target="_blank" rel="noopener">Google SEO Starter Guide</a></li>
+        </ul>
+    </aside>
+
+    <footer>
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Us</h2>
+            <address>
+        Email: <a href="mailto:info@example.com">mutaisharon35@gmail.com</a><br />
+        Phone: <a href="tel:+1234567890">+254729916656</a><br />
+        Address: Nairobi, Kenya
+      </address>
+        </section>
+        <p>&copy; 2025 Accessible Web Co. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
